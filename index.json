@@ -1,21 +1,89 @@
-{ "list": [
+{
+"path":"https://raw.githubusercontent.com/haviital/GameDisk2/master/7Demos", 
+"list": [
 	{ 
 		"type": "bin", 
-		"title": "Matti's Nightmare", 
-		"file": "https://raw.githubusercontent.com/haviital/GameDisk2/master/7Demos/jetpack.bin",
-		"shots": "https://raw.githubusercontent.com/haviital/GameDisk2/master/7Demos/jetpack.bmp" 
-	},
-	{ 
-		"type": "pop", 
-		"title": "Pandemic", 
-		"file": "https://raw.githubusercontent.com/haviital/GameDisk2/master/7Demos/Pandemic.pop",
-		"shots": "https://raw.githubusercontent.com/haviital/GameDisk2/master/7Demos/Pandemic.bmp" 
+		"title": "Sketchi", 
+		"file": "Sketchi.bin",
+		"shots": "Sketchi.bmp" 
 	},
 	{ 
 		"type": "bin", 
-		"title": "MarsAttack", 
-		"file": "https://raw.githubusercontent.com/haviital/GameDisk2/master/7Demos/MarsAttack.bin",
-		"shots": "https://raw.githubusercontent.com/haviital/GameDisk2/master/7Demos/MarsAttack.bmp" 
+		"title": "Raytrace", 
+		"file": "Raytrace.bin",
+		"shots": "Raytrace.bmp" 
+	},
+	{ 
+		"type": "bin", 
+		"title": "Physix", 
+		"file": "Physix.bin",
+		"shots": "Physix.bmp" 
+	},
+	{ 
+		"type": "bin", 
+		"title": "modelviewer_overclock", 
+		"file": "modelviewer_overclock.bin",
+		"shots": "modelviewer_overclock.bmp" 
+	},
+	{ 
+		"type": "bin", 
+		"title": "mode13", 
+		"file": "mode13.bin",
+		"shots": "mode13.bmp" 
+	},
+	{ 
+		"type": "bin", 
+		"title": "Mandel", 
+		"file": "Mandel.bin",
+		"shots": "Mandel.bmp" 
+	},
+	{ 
+		"type": "bin", 
+		"title": "jetpack", 
+		"file": "jetpack.bin",
+		"shots": "jetpack.bmp" 
+	},
+	{ 
+		"type": "bin", 
+		"title": "Intervalometer", 
+		"file": "Intervalometer.bin",
+		"shots": "Intervalometer.bmp" 
+	},
+	{ 
+		"type": "bin", 
+		"title": "demo3_overclock", 
+		"file": "demo3_overclock.bin",
+		"shots": "demo3_overclock.bmp" 
+	},
+	{ 
+		"type": "bin", 
+		"title": "demo2_overclock", 
+		"file": "demo2_overclock.bin",
+		"shots": "demo2_overclock.bmp" 
+	},
+	{ 
+		"type": "bin", 
+		"title": "demo1_overclock", 
+		"file": "demo1_overclock.bin",
+		"shots": "demo1_overclock.bmp" 
+	},
+	{ 
+		"type": "bin", 
+		"title": "city_overclock", 
+		"file": "city_overclock.bin",
+		"shots": "city_overclock.bmp" 
+	},
+	{ 
+		"type": "bin", 
+		"title": "chip8", 
+		"file": "chip8.bin",
+		"shots": "chip8.bmp" 
+	},
+	{ 
+		"type": "bin", 
+		"title": "bytebeat", 
+		"file": "bytebeat.bin",
+		"shots": "bytebeat.bmp" 
 	}
-
-] }
+] 
+}
