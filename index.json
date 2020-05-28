@@ -5,4 +5,10 @@
 		"file": "https://raw.githubusercontent.com/haviital/GameDisk2/master/7Demos/jetpack.bin",
 		"shots": "https://raw.githubusercontent.com/haviital/GameDisk2/master/7Demos/jetpack.bmp" 
 	},
+	{ 
+		"type": "pop", 
+		"title": "Pandemic", 
+		"file": "https://raw.githubusercontent.com/haviital/GameDisk2/master/7Demos/Pandemic.pop",
+		"shots": "https://raw.githubusercontent.com/haviital/GameDisk2/master/7Demos/Pandemic.bmp" 
+	}
 ] }
