@@ -10,5 +10,12 @@
 		"title": "Pandemic", 
 		"file": "https://raw.githubusercontent.com/haviital/GameDisk2/master/7Demos/Pandemic.pop",
 		"shots": "https://raw.githubusercontent.com/haviital/GameDisk2/master/7Demos/Pandemic.bmp" 
+	},
+	{ 
+		"type": "bin", 
+		"title": "MarsAttack", 
+		"file": "https://raw.githubusercontent.com/haviital/GameDisk2/master/7Demos/MarsAttack.bin",
+		"shots": "https://raw.githubusercontent.com/haviital/GameDisk2/master/7Demos/MarsAttack.bmp" 
 	}
+
 ] }
