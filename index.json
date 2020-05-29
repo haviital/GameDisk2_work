@@ -4,37 +4,37 @@
 	{ 
 		"type": "pop", 
 		"title": "Brew of the Undead", 
-		"file": "Botu.bin",
+		"file": "Botu.pop",
 		"shots": "Botu.bmp"
 	},
 	{ 
 		"type": "pop", 
 		"title": "Galaxy Fighters", 
-		"file": "GalaxyFighters.bin",
+		"file": "GalaxyFighters.pop",
 		"shots": "GalaxyFighters.bmp" 
 	},
 	{ 
 		"type": "pop", 
 		"title": "Kong II", 
-		"file": "Kong-II.bin",
+		"file": "Kong-II.pop",
 		"shots": "Kong-II.bmp" 
 	},
 	{ 
 		"type": "pop", 
 		"title": "Pysconian DX", 
-		"file": "pyscodx.bin",
+		"file": "pyscodx.pop",
 		"shots": "pyscodx.bmp" 
 	},
 	{ 
 		"type": "pop", 
 		"title": "Rayne the Rogue", 
-		"file": "RAYNE2v11.bin",
+		"file": "RAYNE2v11.pop",
 		"shots": "RAYNE2v11.bmp" 
 	},
 	{ 
 		"type": "pop", 
 		"title": "Zombie Jumpig", 
-		"file": "Zombie_Jumpig_Pokitto.bin",
+		"file": "Zombie_Jumpig_Pokitto.pop",
 		"shots": "Zombie_Jumpig_Pokitto.bmp" 
 	}
 ] 
