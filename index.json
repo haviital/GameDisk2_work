@@ -1,89 +1,41 @@
 {
-"path":"https://raw.githubusercontent.com/haviital/GameDisk2/master/7Demos", 
+"path":"https://raw.githubusercontent.com/haviital/GameDisk2/master/2Arcade", 
 "list": [
 	{ 
-		"type": "bin", 
-		"title": "Sketchi", 
-		"file": "Sketchi.bin",
-		"shots": "Sketchi.bmp" 
+		"type": "pop", 
+		"title": "Brew of the Undead", 
+		"file": "Botu.bin",
+		"shots": "Botu.bmp" 
 	},
 	{ 
-		"type": "bin", 
-		"title": "Raytrace", 
-		"file": "Raytrace.bin",
-		"shots": "Raytrace.bmp" 
+		"type": "pop", 
+		"title": "Galaxy Fighters", 
+		"file": "GalaxyFighters.bin",
+		"shots": "GalaxyFighters.bmp" 
 	},
 	{ 
-		"type": "bin", 
-		"title": "Physix", 
-		"file": "Physix.bin",
-		"shots": "Physix.bmp" 
+		"type": "pop", 
+		"title": "Kong II", 
+		"file": "Kong-II.bin",
+		"shots": "Kong-II.bmp" 
 	},
 	{ 
-		"type": "bin", 
-		"title": "modelviewer_overclock", 
-		"file": "modelviewer_overclock.bin",
-		"shots": "modelviewer_overclock.bmp" 
+		"type": "pop", 
+		"title": "Pysconian DX", 
+		"file": "pyscodx.bin",
+		"shots": "pyscodx.bmp" 
 	},
 	{ 
-		"type": "bin", 
-		"title": "mode13", 
-		"file": "mode13.bin",
-		"shots": "mode13.bmp" 
+		"type": "pop", 
+		"title": "Rayne the Rogue", 
+		"file": "RAYNE2v11.bin",
+		"shots": "RAYNE2v11.bmp" 
 	},
 	{ 
-		"type": "bin", 
-		"title": "Mandel", 
-		"file": "Mandel.bin",
-		"shots": "Mandel.bmp" 
-	},
-	{ 
-		"type": "bin", 
-		"title": "jetpack", 
-		"file": "jetpack.bin",
-		"shots": "jetpack.bmp" 
-	},
-	{ 
-		"type": "bin", 
-		"title": "Intervalometer", 
-		"file": "Intervalometer.bin",
-		"shots": "Intervalometer.bmp" 
-	},
-	{ 
-		"type": "bin", 
-		"title": "demo3_overclock", 
-		"file": "demo3_overclock.bin",
-		"shots": "demo3_overclock.bmp" 
-	},
-	{ 
-		"type": "bin", 
-		"title": "demo2_overclock", 
-		"file": "demo2_overclock.bin",
-		"shots": "demo2_overclock.bmp" 
-	},
-	{ 
-		"type": "bin", 
-		"title": "demo1_overclock", 
-		"file": "demo1_overclock.bin",
-		"shots": "demo1_overclock.bmp" 
-	},
-	{ 
-		"type": "bin", 
-		"title": "city_overclock", 
-		"file": "city_overclock.bin",
-		"shots": "city_overclock.bmp" 
-	},
-	{ 
-		"type": "bin", 
-		"title": "chip8", 
-		"file": "chip8.bin",
-		"shots": "chip8.bmp" 
-	},
-	{ 
-		"type": "bin", 
-		"title": "bytebeat", 
-		"file": "bytebeat.bin",
-		"shots": "bytebeat.bmp" 
+		"type": "pop", 
+		"title": "Zombie Jumpig", 
+		"file": "Zombie_Jumpig_Pokitto.bin",
+		"shots": "Zombie_Jumpig_Pokitto.bmp" 
 	}
 ] 
 }
