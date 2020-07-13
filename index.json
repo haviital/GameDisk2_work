@@ -36,6 +36,24 @@
 		"title": "Zombie Jumpig", 
 		"file": "Zombie_Jumpig_Pokitto.pop",
 		"shots": "Zombie_Jumpig_Pokitto.bmp" 
+	},
+	{ 
+		"type": "pop", 
+		"title": "Top Fish", 
+		"file": "topfish.pop",
+		"shots": "topfish.bmp" 
+	},
+	{ 
+		"type": "pop", 
+		"title": "Arcade", 
+		"file": "Arcade.pop",
+		"shots": "Arcade.bmp" 
+	},
+	{ 
+		"type": "pop", 
+		"title": "1q48", 
+		"file": "1q48.pop",
+		"shots": "1q48.bmp" 
 	}
 ] 
 }
