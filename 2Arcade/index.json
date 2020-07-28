@@ -1,0 +1,59 @@
+{
+"path":"https://raw.githubusercontent.com/haviital/GameDisk2/master/2Arcade", 
+"list": [
+	{ 
+		"type": "pop", 
+		"title": "Brew of the Undead", 
+		"file": "Botu.pop",
+		"shots": "Botu.bmp"
+	},
+	{ 
+		"type": "pop", 
+		"title": "Galaxy Fighters", 
+		"file": "GalaxyFighters.pop",
+		"shots": "GalaxyFighters.bmp" 
+	},
+	{ 
+		"type": "pop", 
+		"title": "Kong II", 
+		"file": "Kong-II.pop",
+		"shots": "Kong-II.bmp" 
+	},
+	{ 
+		"type": "pop", 
+		"title": "Pysconian DX", 
+		"file": "pyscodx.pop",
+		"shots": "pyscodx.bmp" 
+	},
+	{ 
+		"type": "pop", 
+		"title": "Rayne the Rogue", 
+		"file": "RAYNE2v11.pop",
+		"shots": "RAYNE2v11.bmp" 
+	},
+	{ 
+		"type": "pop", 
+		"title": "Zombie Jumpig", 
+		"file": "Zombie_Jumpig_Pokitto.pop",
+		"shots": "Zombie_Jumpig_Pokitto.bmp" 
+	},
+	{ 
+		"type": "pop", 
+		"title": "Top Fish", 
+		"file": "topfish.pop",
+		"shots": "topfish.bmp" 
+	},
+	{ 
+		"type": "pop", 
+		"title": "Arcade", 
+		"file": "Arcade.pop",
+		"shots": "Arcade.bmp" 
+	},
+	{ 
+		"type": "pop", 
+		"title": "1q48", 
+		"file": "1q48.pop",
+		"shots": "1q48.bmp" 
+	}
+] 
+}

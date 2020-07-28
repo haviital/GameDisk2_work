@@ -1,0 +1,23 @@
+{
+"path":"https://raw.githubusercontent.com/haviital/GameDisk2/master/0Action", 
+"list": [
+	{ 
+		"type": "pop", 
+		"title": "Ball Bust", 
+		"file": "B-Bust.pop",
+		"shots": "B-Bust.bmp"
+	},
+	{ 
+		"type": "pop", 
+		"title": "Espresso Shoot", 
+		"file": "EspressoShoot.pop",
+		"shots": "EspressoShoot.bmp" 
+	},
+	{ 
+		"type": "pop", 
+		"title": "Dash Of The Dead", 
+		"file": "JavaDashOfTheDead.pop",
+		"shots": "JavaDashOfTheDead.bmp" 
+	}
+] 
+}
