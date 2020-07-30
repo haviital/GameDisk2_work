@@ -1,23 +1,90 @@
 {
-"path":"https://raw.githubusercontent.com/haviital/GameDisk2/master/0Action", 
+"path":"https://raw.githubusercontent.com/haviital/GameDisk2/master/0Action"
 "list": [
-	{ 
-		"type": "pop", 
-		"title": "Ball Bust", 
-		"file": "B-Bust.pop",
-		"shots": "B-Bust.bmp"
-	},
-	{ 
-		"type": "pop", 
-		"title": "Espresso Shoot", 
-		"file": "EspressoShoot.pop",
-		"shots": "EspressoShoot.bmp" 
-	},
-	{ 
-		"type": "pop", 
-		"title": "Dash Of The Dead", 
-		"file": "JavaDashOfTheDead.pop",
-		"shots": "JavaDashOfTheDead.bmp" 
-	}
-] 
+   {
+      "type": "pop",
+      "title": "101 Starships",
+      "file": "101stars.pop"
+   },
+   {
+      "type": "pop",
+      "title": "Ball Bust",
+      "file": "B-Bust.pop"
+   },
+   {
+      "type": "pop",
+      "title": "Espresso Shoot",
+      "file": "EspressoShoot.pop"
+   },
+   {
+      "type": "pop",
+      "title": "DashOfTheDead",
+      "file": "JavaDashOfTheDead.pop"
+   },
+   {
+      "type": "pop",
+      "title": "Millipe",
+      "file": "Millipe.pop"
+   },
+   {
+      "type": "pop",
+      "title": "Not Dead Yet",
+      "file": "NotDeadYet.pop"
+   },
+   {
+      "type": "pop",
+      "title": "CPONG",
+      "file": "cpong.pop"
+   },
+   {
+      "type": "pop",
+      "title": "Crabator",
+      "file": "crabator.pop"
+   },
+   {
+      "type": "pop",
+      "title": "flappy",
+      "file": "flappy.pop"
+   },
+   {
+      "type": "pop",
+      "title": "Guns n Riders",
+      "file": "gunridrs.pop"
+   },
+   {
+      "type": "pop",
+      "title": "Lander",
+      "file": "lander.pop"
+   },
+   {
+      "type": "pop",
+      "title": "Mars Attack",
+      "file": "marsatck.pop"
+   },
+   {
+      "type": "pop",
+      "title": "Pokitto Lander",
+      "file": "moon.pop"
+   },
+   {
+      "type": "pop",
+      "title": "Polar Parcel",
+      "file": "polar.pop"
+   },
+   {
+      "type": "pop",
+      "title": "Pyrates!",
+      "file": "pyrates.pop"
+   },
+   {
+      "type": "pop",
+      "title": "Pokitto Says!",
+      "file": "say.pop"
+   },
+   {
+      "type": "pop",
+      "title": "PokSky",
+      "file": "sky.pop"
+   }
+]
 }

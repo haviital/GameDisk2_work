@@ -1,0 +1,40 @@
+{
+"path":"https://raw.githubusercontent.com/haviital/GameDisk2/master/1Adventure"
+"list": [
+   {
+      "type": "bin",
+      "title": "Tygro",
+      "file": "Tygro.bin"
+   },
+   {
+      "type": "pop",
+      "title": "Columns n' Coffins",
+      "file": "coffins.pop"
+   },
+   {
+      "type": "pop",
+      "title": "Legend of Lanea",
+      "file": "lanea.pop"
+   },
+   {
+      "type": "pop",
+      "title": "Pixonia",
+      "file": "pixonia.pop"
+   },
+   {
+      "type": "pop",
+      "title": "ScummpyQuest I",
+      "file": "scummpy.pop"
+   },
+   {
+      "type": "pop",
+      "title": "The Lonely Cottage",
+      "file": "text.pop"
+   },
+   {
+      "type": "bin",
+      "title": "theleak",
+      "file": "theleak.bin"
+   }
+]
+}

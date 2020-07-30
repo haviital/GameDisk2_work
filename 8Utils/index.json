@@ -1,0 +1,45 @@
+{
+"path":"https://raw.githubusercontent.com/haviital/GameDisk2/master/8Utils"
+"list": [
+   {
+      "type": "pop",
+      "title": "Xploritto v0.1.1",
+      "file": "Xploritto.pop"
+   },
+   {
+      "type": "pop",
+      "title": "Lil IDE",
+      "file": "lilide.pop"
+   },
+   {
+      "type": "pop",
+      "title": "PokiPad",
+      "file": "pokipad.pop"
+   },
+   {
+      "type": "bin",
+      "title": "sfxed11k",
+      "file": "sfxed11k.bin"
+   },
+   {
+      "type": "bin",
+      "title": "sfxed16k",
+      "file": "sfxed16k.bin"
+   },
+   {
+      "type": "bin",
+      "title": "sfxed22k",
+      "file": "sfxed22k.bin"
+   },
+   {
+      "type": "bin",
+      "title": "sfxed8k",
+      "file": "sfxed8k.bin"
+   },
+   {
+      "type": "bin",
+      "title": "tracker",
+      "file": "tracker.bin"
+   }
+]
+}

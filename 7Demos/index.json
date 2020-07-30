@@ -1,0 +1,75 @@
+{
+"path":"https://raw.githubusercontent.com/haviital/GameDisk2/master/7Demos"
+"list": [
+   {
+      "type": "bin",
+      "title": "Intervalometer",
+      "file": "Intervalometer.bin"
+   },
+   {
+      "type": "bin",
+      "title": "Mandel",
+      "file": "Mandel.bin"
+   },
+   {
+      "type": "bin",
+      "title": "Physix",
+      "file": "Physix.bin"
+   },
+   {
+      "type": "bin",
+      "title": "Raytrace",
+      "file": "Raytrace.bin"
+   },
+   {
+      "type": "bin",
+      "title": "Sketchi",
+      "file": "Sketchi.bin"
+   },
+   {
+      "type": "bin",
+      "title": "bytebeat",
+      "file": "bytebeat.bin"
+   },
+   {
+      "type": "bin",
+      "title": "chip8",
+      "file": "chip8.bin"
+   },
+   {
+      "type": "bin",
+      "title": "city_overclock",
+      "file": "city_overclock.bin"
+   },
+   {
+      "type": "bin",
+      "title": "demo1_overclock",
+      "file": "demo1_overclock.bin"
+   },
+   {
+      "type": "bin",
+      "title": "demo2_overclock",
+      "file": "demo2_overclock.bin"
+   },
+   {
+      "type": "bin",
+      "title": "demo3_overclock",
+      "file": "demo3_overclock.bin"
+   },
+   {
+      "type": "bin",
+      "title": "jetpack",
+      "file": "jetpack.bin"
+   },
+   {
+      "type": "bin",
+      "title": "mode13",
+      "file": "mode13.bin"
+   },
+   {
+      "type": "bin",
+      "title": "modelviewer_overclock",
+      "file": "modelviewer_overclock.bin"
+   }
+]
+}

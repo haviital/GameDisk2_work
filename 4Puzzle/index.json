@@ -1,0 +1,125 @@
+{
+"path":"https://raw.githubusercontent.com/haviital/GameDisk2/master/4Puzzle"
+"list": [
+   {
+      "type": "bin",
+      "title": "Basket",
+      "file": "Basket.bin"
+   },
+   {
+      "type": "pop",
+      "title": "Cutie Critters",
+      "file": "CutieCritters_v11.pop"
+   },
+   {
+      "type": "bin",
+      "title": "Dumblin",
+      "file": "Dumblin.bin"
+   },
+   {
+      "type": "bin",
+      "title": "KamerKatze",
+      "file": "KamerKatze.bin"
+   },
+   {
+      "type": "pop",
+      "title": "Mambo Is Me",
+      "file": "MamboIsMe.pop"
+   },
+   {
+      "type": "pop",
+      "title": "MrDriller",
+      "file": "MrDriller.pop"
+   },
+   {
+      "type": "pop",
+      "title": "Noggin",
+      "file": "Noggin.pop"
+   },
+   {
+      "type": "pop",
+      "title": "Pok15",
+      "file": "Pok15.pop"
+   },
+   {
+      "type": "pop",
+      "title": "Pokaquarium",
+      "file": "Pokaquarium.pop"
+   },
+   {
+      "type": "pop",
+      "title": "sensitive",
+      "file": "Sensitive.pop"
+   },
+   {
+      "type": "pop",
+      "title": "Yatzy2",
+      "file": "YATZY2.pop"
+   },
+   {
+      "type": "bin",
+      "title": "bbb",
+      "file": "bbb.bin"
+   },
+   {
+      "type": "pop",
+      "title": "Boblo",
+      "file": "boblo.pop"
+   },
+   {
+      "type": "pop",
+      "title": "Joebert (wip)",
+      "file": "joebert_wip.pop"
+   },
+   {
+      "type": "pop",
+      "title": "Kooky Kookies",
+      "file": "kooky.pop"
+   },
+   {
+      "type": "pop",
+      "title": "Linez",
+      "file": "linez.pop"
+   },
+   {
+      "type": "pop",
+      "title": "Pok2048",
+      "file": "pok2048.pop"
+   },
+   {
+      "type": "pop",
+      "title": "Pokittris",
+      "file": "pokitris.pop"
+   },
+   {
+      "type": "pop",
+      "title": "pokittaire",
+      "file": "pokittaire.pop"
+   },
+   {
+      "type": "pop",
+      "title": "RAQUER METE",
+      "file": "raquermete.pop"
+   },
+   {
+      "type": "bin",
+      "title": "slime",
+      "file": "slime.bin"
+   },
+   {
+      "type": "pop",
+      "title": "Squiddy",
+      "file": "squiddy.pop"
+   },
+   {
+      "type": "pop",
+      "title": "The Villainy of Cat Food Inc",
+      "file": "vocfi.pop"
+   },
+   {
+      "type": "pop",
+      "title": "YATTT (Yet Another Tic Tac Toe)",
+      "file": "yatt.pop"
+   }
+]
+}

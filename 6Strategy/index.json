@@ -1,0 +1,20 @@
+{
+"path":"https://raw.githubusercontent.com/haviital/GameDisk2/master/6Strategy"
+"list": [
+   {
+      "type": "pop",
+      "title": "AwakenJavaofthedeadjam",
+      "file": "AwakenJavaofthedeadjam.pop"
+   },
+   {
+      "type": "pop",
+      "title": "Naval Battle",
+      "file": "nbattle.pop"
+   },
+   {
+      "type": "pop",
+      "title": "tazs-javitto",
+      "file": "tazs-javitto.pop"
+   }
+]
+}

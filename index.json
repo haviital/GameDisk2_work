@@ -1,21 +1,50 @@
 {
-"path":"https://raw.githubusercontent.com/haviital/GameDisk2/master", 
+"path":"https://raw.githubusercontent.com/haviital/GameDisk2/master"
 "list": [
-	{ 
-		"type": "dir", 
-		"dirtitle": "0Action", 
-		"file": "0Action"
-	},
-	{ 
-		"type": "dir", 
-		"dirtitle": "2Arcade", 
-		"file": "2Arcade"
-	},
-	{ 
-		"type": "pop", 
-		"title": "Xploritto", 
-		"file": "Xploritto.pop",
-		"shots": "Xploritto.bmp"
-	}
-] 
+   {
+      "type": "dir",
+      "dirtitle": "0Action",
+      "file": "0Action"
+   },
+   {
+      "type": "dir",
+      "dirtitle": "1Adventure",
+      "file": "1Adventure"
+   },
+   {
+      "type": "dir",
+      "dirtitle": "2Arcade",
+      "file": "2Arcade"
+   },
+   {
+      "type": "dir",
+      "dirtitle": "3Platformer",
+      "file": "3Platformer"
+   },
+   {
+      "type": "dir",
+      "dirtitle": "4Puzzle",
+      "file": "4Puzzle"
+   },
+   {
+      "type": "dir",
+      "dirtitle": "5Racing",
+      "file": "5Racing"
+   },
+   {
+      "type": "dir",
+      "dirtitle": "6Strategy",
+      "file": "6Strategy"
+   },
+   {
+      "type": "dir",
+      "dirtitle": "7Demos",
+      "file": "7Demos"
+   },
+   {
+      "type": "dir",
+      "dirtitle": "8Utils",
+      "file": "8Utils"
+   }
+]
 }

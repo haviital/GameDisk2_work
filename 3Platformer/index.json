@@ -1,0 +1,60 @@
+{
+"path":"https://raw.githubusercontent.com/haviital/GameDisk2/master/3Platformer"
+"list": [
+   {
+      "type": "pop",
+      "title": "Canabalto",
+      "file": "Canabalto.pop"
+   },
+   {
+      "type": "pop",
+      "title": "L'Abbaye des morts",
+      "file": "L'Abbaye des morts.pop"
+   },
+   {
+      "type": "pop",
+      "title": "Lode Runner",
+      "file": "LodeRunner_Pokitto_v1.pop"
+   },
+   {
+      "type": "pop",
+      "title": "PokiEvil4",
+      "file": "PokiEvil4.pop"
+   },
+   {
+      "type": "bin",
+      "title": "SupaPrin",
+      "file": "SupaPrin.bin"
+   },
+   {
+      "type": "pop",
+      "title": "Upwell",
+      "file": "Upwell.pop"
+   },
+   {
+      "type": "pop",
+      "title": "Endless Forms Most Pokittoful",
+      "file": "efmp.pop"
+   },
+   {
+      "type": "pop",
+      "title": "Maruino",
+      "file": "maruino.pop"
+   },
+   {
+      "type": "pop",
+      "title": "Matti's Nightmare",
+      "file": "matti_v04.pop"
+   },
+   {
+      "type": "bin",
+      "title": "mona",
+      "file": "mona.bin"
+   },
+   {
+      "type": "pop",
+      "title": "Pretty Princess Escape",
+      "file": "pretty.pop"
+   }
+]
+}

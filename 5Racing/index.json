@@ -1,0 +1,15 @@
+{
+"path":"https://raw.githubusercontent.com/haviital/GameDisk2/master/5Racing"
+"list": [
+   {
+      "type": "pop",
+      "title": "Pokitto Grand Prix",
+      "file": "PokitGP.pop"
+   },
+   {
+      "type": "pop",
+      "title": "Uforace",
+      "file": "uforace.pop"
+   }
+]
+}
