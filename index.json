@@ -3,48 +3,57 @@
 "list": [
    {
       "type": "dir",
-      "dirtitle": "0Action",
+      "dirtitle": "Action",
       "file": "0Action"
+      "timestamp": "1590499010"
    },
    {
       "type": "dir",
-      "dirtitle": "1Adventure",
+      "dirtitle": "Adventure",
       "file": "1Adventure"
+      "timestamp": "1590499010"
    },
    {
       "type": "dir",
-      "dirtitle": "2Arcade",
+      "dirtitle": "Arcade",
       "file": "2Arcade"
+      "timestamp": "1590499010"
    },
    {
       "type": "dir",
-      "dirtitle": "3Platformer",
+      "dirtitle": "Platformer",
       "file": "3Platformer"
+      "timestamp": "1590499010"
    },
    {
       "type": "dir",
-      "dirtitle": "4Puzzle",
+      "dirtitle": "Puzzle",
       "file": "4Puzzle"
+      "timestamp": "1643550856"
    },
    {
       "type": "dir",
-      "dirtitle": "5Racing",
+      "dirtitle": "Racing",
       "file": "5Racing"
+      "timestamp": "1590499010"
    },
    {
       "type": "dir",
-      "dirtitle": "6Strategy",
+      "dirtitle": "Strategy",
       "file": "6Strategy"
+      "timestamp": "1590499010"
    },
    {
       "type": "dir",
-      "dirtitle": "7Demos",
+      "dirtitle": "Demos",
       "file": "7Demos"
+      "timestamp": "1590499010"
    },
    {
       "type": "dir",
-      "dirtitle": "8Utils",
+      "dirtitle": "Utils",
       "file": "8Utils"
+      "timestamp": "1590499010"
    }
 ]
 }

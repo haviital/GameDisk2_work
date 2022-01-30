@@ -1,125 +1,150 @@
 {
 "path":"https://raw.githubusercontent.com/haviital/GameDisk2/master/4Puzzle"
+"timestamp":"1643550856"
 "list": [
    {
       "type": "bin",
       "title": "Basket",
-      "file": "Basket.bin"
+      "file": "Basket.bin",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Cutie Critters",
-      "file": "CutieCritters_v11.pop"
+      "file": "CutieCritters_v11.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "bin",
       "title": "Dumblin",
-      "file": "Dumblin.bin"
+      "file": "Dumblin.bin",
+      "timestamp": "1590499010"
    },
    {
       "type": "bin",
       "title": "KamerKatze",
-      "file": "KamerKatze.bin"
+      "file": "KamerKatze.bin",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Mambo Is Me",
-      "file": "MamboIsMe.pop"
+      "file": "MamboIsMe.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "MrDriller",
-      "file": "MrDriller.pop"
+      "file": "MrDriller.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Noggin",
-      "file": "Noggin.pop"
+      "file": "Noggin.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Pok15",
-      "file": "Pok15.pop"
+      "file": "Pok15.pop",
+      "timestamp": "1643550856"
    },
    {
       "type": "pop",
       "title": "Pokaquarium",
-      "file": "Pokaquarium.pop"
+      "file": "Pokaquarium.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "sensitive",
-      "file": "Sensitive.pop"
+      "file": "Sensitive.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Yatzy2",
-      "file": "YATZY2.pop"
+      "file": "YATZY2.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "bin",
       "title": "bbb",
-      "file": "bbb.bin"
+      "file": "bbb.bin",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Boblo",
-      "file": "boblo.pop"
+      "file": "boblo.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Joebert (wip)",
-      "file": "joebert_wip.pop"
+      "file": "joebert_wip.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Kooky Kookies",
-      "file": "kooky.pop"
+      "file": "kooky.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Linez",
-      "file": "linez.pop"
+      "file": "linez.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Pok2048",
-      "file": "pok2048.pop"
+      "file": "pok2048.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Pokittris",
-      "file": "pokitris.pop"
+      "file": "pokitris.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "pokittaire",
-      "file": "pokittaire.pop"
+      "file": "pokittaire.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "RAQUER METE",
-      "file": "raquermete.pop"
+      "file": "raquermete.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "bin",
       "title": "slime",
-      "file": "slime.bin"
+      "file": "slime.bin",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Squiddy",
-      "file": "squiddy.pop"
+      "file": "squiddy.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "The Villainy of Cat Food Inc",
-      "file": "vocfi.pop"
+      "file": "vocfi.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "YATTT (Yet Another Tic Tac Toe)",
-      "file": "yatt.pop"
+      "file": "yatt.pop",
+      "timestamp": "1590499010"
    }
 ]
 }

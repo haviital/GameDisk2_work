@@ -1,75 +1,90 @@
 {
 "path":"https://raw.githubusercontent.com/haviital/GameDisk2/master/7Demos"
+"timestamp":"1590499010"
 "list": [
    {
       "type": "bin",
       "title": "Intervalometer",
-      "file": "Intervalometer.bin"
+      "file": "Intervalometer.bin",
+      "timestamp": "1590499010"
    },
    {
       "type": "bin",
       "title": "Mandel",
-      "file": "Mandel.bin"
+      "file": "Mandel.bin",
+      "timestamp": "1590499010"
    },
    {
       "type": "bin",
       "title": "Physix",
-      "file": "Physix.bin"
+      "file": "Physix.bin",
+      "timestamp": "1590499010"
    },
    {
       "type": "bin",
       "title": "Raytrace",
-      "file": "Raytrace.bin"
+      "file": "Raytrace.bin",
+      "timestamp": "1590499010"
    },
    {
       "type": "bin",
       "title": "Sketchi",
-      "file": "Sketchi.bin"
+      "file": "Sketchi.bin",
+      "timestamp": "1590499010"
    },
    {
       "type": "bin",
       "title": "bytebeat",
-      "file": "bytebeat.bin"
+      "file": "bytebeat.bin",
+      "timestamp": "1590499010"
    },
    {
       "type": "bin",
       "title": "chip8",
-      "file": "chip8.bin"
+      "file": "chip8.bin",
+      "timestamp": "1590499010"
    },
    {
       "type": "bin",
       "title": "city_overclock",
-      "file": "city_overclock.bin"
+      "file": "city_overclock.bin",
+      "timestamp": "1590499010"
    },
    {
       "type": "bin",
       "title": "demo1_overclock",
-      "file": "demo1_overclock.bin"
+      "file": "demo1_overclock.bin",
+      "timestamp": "1590499010"
    },
    {
       "type": "bin",
       "title": "demo2_overclock",
-      "file": "demo2_overclock.bin"
+      "file": "demo2_overclock.bin",
+      "timestamp": "1590499010"
    },
    {
       "type": "bin",
       "title": "demo3_overclock",
-      "file": "demo3_overclock.bin"
+      "file": "demo3_overclock.bin",
+      "timestamp": "1590499010"
    },
    {
       "type": "bin",
       "title": "jetpack",
-      "file": "jetpack.bin"
+      "file": "jetpack.bin",
+      "timestamp": "1590499010"
    },
    {
       "type": "bin",
       "title": "mode13",
-      "file": "mode13.bin"
+      "file": "mode13.bin",
+      "timestamp": "1590499010"
    },
    {
       "type": "bin",
       "title": "modelviewer_overclock",
-      "file": "modelviewer_overclock.bin"
+      "file": "modelviewer_overclock.bin",
+      "timestamp": "1590499010"
    }
 ]
 }

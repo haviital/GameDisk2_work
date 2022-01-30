@@ -1,60 +1,72 @@
 {
 "path":"https://raw.githubusercontent.com/haviital/GameDisk2/master/3Platformer"
+"timestamp":"1590499010"
 "list": [
    {
       "type": "pop",
       "title": "Canabalto",
-      "file": "Canabalto.pop"
+      "file": "Canabalto.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "L'Abbaye des morts",
-      "file": "L'Abbaye des morts.pop"
+      "file": "L'Abbaye des morts.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Lode Runner",
-      "file": "LodeRunner_Pokitto_v1.pop"
+      "file": "LodeRunner_Pokitto_v1.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "PokiEvil4",
-      "file": "PokiEvil4.pop"
+      "file": "PokiEvil4.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "bin",
       "title": "SupaPrin",
-      "file": "SupaPrin.bin"
+      "file": "SupaPrin.bin",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Upwell",
-      "file": "Upwell.pop"
+      "file": "Upwell.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Endless Forms Most Pokittoful",
-      "file": "efmp.pop"
+      "file": "efmp.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Maruino",
-      "file": "maruino.pop"
+      "file": "maruino.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Matti's Nightmare",
-      "file": "matti_v04.pop"
+      "file": "matti_v04.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "bin",
       "title": "mona",
-      "file": "mona.bin"
+      "file": "mona.bin",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Pretty Princess Escape",
-      "file": "pretty.pop"
+      "file": "pretty.pop",
+      "timestamp": "1590499010"
    }
 ]
 }

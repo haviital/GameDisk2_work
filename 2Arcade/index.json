@@ -1,140 +1,168 @@
 {
 "path":"https://raw.githubusercontent.com/haviital/GameDisk2/master/2Arcade"
+"timestamp":"1590499010"
 "list": [
    {
       "type": "pop",
       "title": "1q48",
-      "file": "1q48.pop"
+      "file": "1q48.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Arcade Classics",
-      "file": "Arcade.pop"
+      "file": "Arcade.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "BigBlue",
-      "file": "BigBlue.pop"
+      "file": "BigBlue.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Botu",
-      "file": "Botu.pop"
+      "file": "Botu.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Galaxy Fighter",
-      "file": "GalaxyFighters.pop"
+      "file": "GalaxyFighters.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "InvaderWaves",
-      "file": "InvaderWaves.pop"
+      "file": "InvaderWaves.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Kong II",
-      "file": "Kong-II.pop"
+      "file": "Kong-II.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "PiCross",
-      "file": "PiCross.pop"
+      "file": "PiCross.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "R0xitto",
-      "file": "R0xitto26.pop"
+      "file": "R0xitto26.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Rayne the Rogue Part II",
-      "file": "RAYNE2v11.pop"
+      "file": "RAYNE2v11.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "ZOMBIE JUMPIG",
-      "file": "Zombie_Jumpig_Pokitto.pop"
+      "file": "Zombie_Jumpig_Pokitto.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Aqua Pokitty",
-      "file": "aqua16.pop"
+      "file": "aqua16.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Armageddon",
-      "file": "armagedn.pop"
+      "file": "armagedn.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Artillery",
-      "file": "artiller.pop"
+      "file": "artiller.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Asterocks",
-      "file": "asterock.pop"
+      "file": "asterock.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "bin",
       "title": "bouncing",
-      "file": "bouncing.bin"
+      "file": "bouncing.bin",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Digger",
-      "file": "digger.pop"
+      "file": "digger.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "bin",
       "title": "flappybo",
-      "file": "flappybo.bin"
+      "file": "flappybo.bin",
+      "timestamp": "1590499010"
    },
    {
       "type": "bin",
       "title": "kamerakatze",
-      "file": "kamerakatze.bin"
+      "file": "kamerakatze.bin",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Linez",
-      "file": "linez.pop"
+      "file": "linez.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Pakman",
-      "file": "pakman.pop"
+      "file": "pakman.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Pysconian84",
-      "file": "pysco84.pop"
+      "file": "pysco84.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Pysconian Deluxe",
-      "file": "pyscodx.pop"
+      "file": "pyscodx.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Rexitto",
-      "file": "rexitto.pop"
+      "file": "rexitto.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Tor's Game Gallery",
-      "file": "tgg.pop"
+      "file": "tgg.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "Top Fish",
-      "file": "topfish.pop"
+      "file": "topfish.pop",
+      "timestamp": "1590499010"
    },
    {
       "type": "pop",
       "title": "U.F.O.",
-      "file": "ufo.pop"
+      "file": "ufo.pop",
+      "timestamp": "1590499010"
    }
 ]
 }
