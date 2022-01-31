@@ -22,8 +22,11 @@ defaultFolderList_test = [
     "0Action"
 ]
 
+maxOfMaxTimestampsInt = 0
+
 def CreateRootIndex():
 
+    global maxOfMaxTimestampsInt
     file = open("../index.json", "w")
 
     # Write the header, e.g.
@@ -33,6 +36,7 @@ def CreateRootIndex():
 
     file.write("{\n")
     file.write('"path":"https://raw.githubusercontent.com/haviital/GameDisk2/master"\n')
+    file.write('"timestamp":"' + str(maxOfMaxTimestampsInt) + '"\n')
     file.write('"list": [\n')
 
     # write the folders
@@ -98,6 +102,8 @@ def ReadTagFromPopFile(popFile):
 
 def CreateSubdirIndices():
 
+    global maxOfMaxTimestampsInt
+
     for folderListIndex in range(len(defaultFolderList)):
         folderListItem = defaultFolderList[folderListIndex]
         dir = folderListItem[0]
@@ -107,7 +113,6 @@ def CreateSubdirIndices():
 
         # Drop other files than *.bin and *.pop
         fileList = []
-        maxTimeStr = ""
         maxTimeSinceEpochInSecInt = 0
         for item in fileListAll:
             nameAndExtList = item.split('.')
@@ -123,12 +128,13 @@ def CreateSubdirIndices():
                 # Store the newest timestamp
                 if timeSinceEpochInSecInt > maxTimeSinceEpochInSecInt:
                     maxTimeSinceEpochInSecInt = timeSinceEpochInSecInt
-                    maxTimeStr = timeSinceEpochInSecStr
 
                 fileList.append([item, timeSinceEpochInSecStr])
 
         # store the timestamp for the folder
-		defaultFolderList[folderListIndex] = [folderListItem[0], folderListItem[1], maxTimeStr]
+        defaultFolderList[folderListIndex] = [folderListItem[0], folderListItem[1], str(maxTimeSinceEpochInSecInt)]
+        if maxTimeSinceEpochInSecInt > maxOfMaxTimestampsInt:
+            maxOfMaxTimestampsInt = maxTimeSinceEpochInSecInt
 
         # Sort alphapetically
         fileList.sort(key=lambda tmp: tmp[0])
@@ -142,7 +148,7 @@ def CreateSubdirIndices():
 
         file.write("{\n")
         file.write('"path":"https://raw.githubusercontent.com/haviital/GameDisk2/master/' + dir +'"\n')
-        file.write('"timestamp":"' + maxTimeStr + '"\n')
+        file.write('"timestamp":"' + str(maxTimeSinceEpochInSecInt) + '"\n')
         file.write('"list": [\n')
     
 
