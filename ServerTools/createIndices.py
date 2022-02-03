@@ -58,7 +58,7 @@ def CreateRootIndex():
         file.write("   {\n")
         file.write('      "type": "dir",\n')
         file.write('      "dirtitle": "' + prettyName + '",\n')
-        file.write('      "file": "' + folderName + '"\n')
+        file.write('      "file": "' + folderName + '",\n')
         file.write('      "timestamp": "' + timestamp + '"\n')
 
         if i < len(defaultFolderList) - 1:
