@@ -1,0 +1,24 @@
+{
+"path":"https://raw.githubusercontent.com/haviital/GameDisk2/master/00Notes"
+"timestamp":"1645527171"
+"list": [
+   {
+      "type": "note",
+      "title": "New game !",
+      "file": "New game !.txt",
+      "timestamp": "1645527036"
+   },
+   {
+      "type": "note",
+      "title": "New highscores this week",
+      "file": "New highscores this week.txt",
+      "timestamp": "1645527171"
+   },
+   {
+      "type": "note",
+      "title": "Sale in Pokitto Shop !",
+      "file": "Sale in Pokitto Shop !.txt",
+      "timestamp": "1645527009"
+   }
+]
+}
