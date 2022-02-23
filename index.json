@@ -1,7 +1,13 @@
 {
 "path":"https://raw.githubusercontent.com/haviital/GameDisk2/master"
-"timestamp":"1643550856"
+"timestamp":"1645527171"
 "list": [
+   {
+      "type": "dir",
+      "dirtitle": "News",
+      "file": "00Notes",
+      "timestamp": "1645527171"
+   },
    {
       "type": "dir",
       "dirtitle": "Action",

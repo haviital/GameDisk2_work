@@ -1,4 +1,4 @@
-# A script for generating index.json files 
+# A script for generating index.json files
 
 import os
 import datetime
@@ -7,6 +7,7 @@ import time
 
 
 defaultFolderList = [
+    ["00Notes", "News"],
     ["0Action", "Action"],
     ["1Adventure", "Adventure"],
     ["2Arcade", "Arcade"],
@@ -108,6 +109,10 @@ def CreateSubdirIndices():
         folderListItem = defaultFolderList[folderListIndex]
         dir = folderListItem[0]
         print(dir)
+
+        isNotesForlder = False
+        if dir=="Notes": isNotesForlder = True
+        
         fileListAll = os.listdir("../"+dir)
         print(fileListAll)
 
@@ -117,7 +122,7 @@ def CreateSubdirIndices():
         for item in fileListAll:
             nameAndExtList = item.split('.')
             ext = nameAndExtList[1]
-            if ext == "pop" or ext == "bin":
+            if ext == "pop" or ext == "bin" or ext == "txt":
                 # Read the timestamp
             	filePath1 = "../"+dir+"/"+item
                 timeSinceEpochInSeconds = os.path.getmtime(filePath1) 
@@ -139,6 +144,8 @@ def CreateSubdirIndices():
         # Sort alphapetically
         fileList.sort(key=lambda tmp: tmp[0])
 
+        # *** Write the subfolder info to the own index.json.
+
         file = open("../"+dir+"/index.json", "w")
 
         # Write the header, e.g.
@@ -151,9 +158,7 @@ def CreateSubdirIndices():
         file.write('"timestamp":"' + str(maxTimeSinceEpochInSecInt) + '"\n')
         file.write('"list": [\n')
     
-
-
-        # write games
+        # write games or notes
         for i in range(len(fileList)):
 
             gameFile = fileList[i][0]
@@ -188,8 +193,11 @@ def CreateSubdirIndices():
             #   "timestamp": "", 
             #},
 
+            ext2 = ext
+            if ext=="txt": ext2="note"
+
             file.write("   {\n")
-            file.write('      "type": "' + ext + '",\n')
+            file.write('      "type": "' + ext2 + '",\n')
             file.write('      "title": "' + name + '",\n')
             file.write('      "file": "' + gameFile + '",\n')
             file.write('      "timestamp": "' + timeSinceEpochInSecStr + '"\n')
