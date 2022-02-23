@@ -1,4 +1,4 @@
-# A script for generating index.json files
+# A script for generating index.json files 
 
 import os
 import datetime
