@@ -28,7 +28,7 @@ maxOfMaxTimestampsInt = 0
 def CreateRootIndex():
 
     global maxOfMaxTimestampsInt
-    file = open("../index.json", "w")
+    file = open(rootDir+"/index.json", "w")
 
     # Write the header, e.g.
     # {
@@ -36,13 +36,12 @@ def CreateRootIndex():
     # "list": [
 
     file.write("{\n")
-    file.write('"path":"https://raw.githubusercontent.com/haviital/GameDisk2/master"\n')
+    file.write('"path":"https://raw.githubusercontent.com/haviital/' + rootFolderName + '/master"\n')
     file.write('"timestamp":"' + str(maxOfMaxTimestampsInt) + '"\n')
     file.write('"list": [\n')
 
     # write the folders
     for i in range(len(defaultFolderList)):
-
         folderName = defaultFolderList[i][0]
         prettyName = defaultFolderList[i][1]
         timestamp = defaultFolderList[i][2]
@@ -52,7 +51,7 @@ def CreateRootIndex():
         # Write a folder record, e.g.
         #{ 
         #   "type": "dir", 
-        #   "dirtitle": "0Action", 
+        #currDir   "dirtitle": "0Action", 
         #   "file": "0Action"
         #},
  
@@ -113,7 +112,7 @@ def CreateSubdirIndices():
         isNotesForlder = False
         if dir=="Notes": isNotesForlder = True
         
-        fileListAll = os.listdir("../"+dir)
+        fileListAll = os.listdir(rootDir+"/"+dir)
         print(fileListAll)
 
         # Drop other files than *.bin and *.pop
@@ -154,7 +153,7 @@ def CreateSubdirIndices():
         # "list": [
 
         file.write("{\n")
-        file.write('"path":"https://raw.githubusercontent.com/haviital/GameDisk2/master/' + dir +'"\n')
+        file.write('"path":"https://raw.githubusercontent.com/haviital/' + rootFolderName + '/master/' + dir +'"\n')
         file.write('"timestamp":"' + str(maxTimeSinceEpochInSecInt) + '"\n')
         file.write('"list": [\n')
     
@@ -214,6 +213,17 @@ def CreateSubdirIndices():
         file.write("}\n")
 
 ### Main
+
+currDir = os.getcwd()
+
+#print(currDir)
+#print(os.path.basename(currDir))
+rootDir = os.path.abspath(os.path.join(currDir, os.pardir))  # e.g."/home/hannu/git/GameDisk2"
+rootFolderName = os.path.basename(rootDir)
+#print(rootDir)
+#print(rooFolderName)
+#x=input()
+
 
 CreateSubdirIndices()
 
