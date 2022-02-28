@@ -4,20 +4,20 @@
 "list": [
    {
       "type": "note",
-      "title": "New game !",
-      "file": "New game !.txt",
-      "timestamp": "1645527036"
-   },
-   {
-      "type": "note",
-      "title": "New highscores this week",
-      "file": "New highscores this week.txt",
+      "title": "Highscore",
+      "file": "Highscore.txt",
       "timestamp": "1645527171"
    },
    {
       "type": "note",
-      "title": "Sale in Pokitto Shop !",
-      "file": "Sale in Pokitto Shop !.txt",
+      "title": "New game",
+      "file": "New game.txt",
+      "timestamp": "1645527036"
+   },
+   {
+      "type": "note",
+      "title": "Sale!",
+      "file": "Sale!.txt",
       "timestamp": "1645527009"
    }
 ]
