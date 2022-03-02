@@ -1,24 +1,24 @@
 {
 "path":"https://raw.githubusercontent.com/haviital/GameDisk2_work/master/00Notes"
-"timestamp":"1645527171"
+"timestamp":"1646132604"
 "list": [
    {
       "type": "note",
-      "title": "Highscore",
-      "file": "Highscore.txt",
-      "timestamp": "1645527171"
+      "title": "New Highscores!",
+      "file": "220113.txt",
+      "timestamp": "1646132419"
    },
    {
       "type": "note",
-      "title": "New game",
-      "file": "New game.txt",
-      "timestamp": "1645527036"
+      "title": "New Games!",
+      "file": "220217.txt",
+      "timestamp": "1646132567"
    },
    {
       "type": "note",
-      "title": "Sale!",
-      "file": "Sale!.txt",
-      "timestamp": "1645527009"
+      "title": "In Sale Now!",
+      "file": "220223.txt",
+      "timestamp": "1646132604"
    }
 ]
 }

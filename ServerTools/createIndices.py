@@ -99,6 +99,19 @@ def ReadTagFromPopFile(popFile):
 
     return "not found"
 
+def ReadTitleFromTxtFile(filePath):
+
+    print("filePath=",filePath)
+    file=open(filePath, "r")
+    title = file.readline();
+
+    # Remove any trailing and leading whitespace.
+    title = title.strip()
+
+    # truncate to 16 chars
+    title = title[0:16]
+
+    return title
 
 def CreateSubdirIndices():
 
@@ -170,6 +183,8 @@ def CreateSubdirIndices():
             if ext == "pop":
                 name = ReadTagFromPopFile(filePath2)
                 print("pop name=" +  name)
+            elif ext == "txt":
+                name = ReadTitleFromTxtFile(filePath2)
 
             # Read the timestamp
             timeSinceEpochInSecStr = fileList[i][1]
@@ -192,11 +207,11 @@ def CreateSubdirIndices():
             #   "timestamp": "", 
             #},
 
-            ext2 = ext
-            if ext=="txt": ext2="note"
+            type1 = ext
+            if ext=="txt": type1="note"
 
             file.write("   {\n")
-            file.write('      "type": "' + ext2 + '",\n')
+            file.write('      "type": "' + type1 + '",\n')
             file.write('      "title": "' + name + '",\n')
             file.write('      "file": "' + gameFile + '",\n')
             file.write('      "timestamp": "' + timeSinceEpochInSecStr + '"\n')
