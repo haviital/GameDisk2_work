@@ -1,24 +1,30 @@
 {
 "path":"https://raw.githubusercontent.com/haviital/GameDisk2/master/00Notes"
-"timestamp":"1646420936"
+"timestamp":"1647721517"
 "list": [
    {
       "type": "note",
       "title": "New Highscores!",
       "file": "220113.txt",
-      "timestamp": "1646420936"
+      "timestamp": "1646598981"
    },
    {
       "type": "note",
       "title": "New Games!",
       "file": "220217.txt",
-      "timestamp": "1646420936"
+      "timestamp": "1646599108"
    },
    {
       "type": "note",
       "title": "In Sale Now!",
       "file": "220223.txt",
-      "timestamp": "1646420936"
+      "timestamp": "1647462313"
+   },
+   {
+      "type": "note",
+      "title": "Pokitto Mag #3",
+      "file": "220319.txt",
+      "timestamp": "1647721517"
    }
 ]
 }
