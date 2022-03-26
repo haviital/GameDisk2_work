@@ -1,0 +1,4 @@
+file: "/home/hannu/git/GameDisk2/3Platformer/matti_v04.pop" --> "3Platformer/matti_v04.pop"
+file: "/home/hannu/git/GameDisk2/3Platformer/matti_v04_data/danger.raw" --> "danger.raw"
+file: "/home/hannu/git/GameDisk2/3Platformer/matti_v04_data/rap2h.raw" --> "rap2h.raw"
+file: "/home/hannu/git/GameDisk2/3Platformer/matti_v04_data/dreamc.raw" --> "dreamc.raw"

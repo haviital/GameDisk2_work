@@ -1,0 +1,5 @@
+file: "/home/hannu/git/GameDisk2/2Arcade/Kong-II.pop" --> "2Arcade/Kong-II.pop"
+file: "/home/hannu/git/GameDisk2/2Arcade/Kong-II_data/music/kong2_1.raw" --> "music/kong2_1.raw"
+file: "/home/hannu/git/GameDisk2/2Arcade/Kong-II_data/music/kong2_3.raw" --> "music/kong2_3.raw"
+file: "/home/hannu/git/GameDisk2/2Arcade/Kong-II_data/music/kong2_4.raw" --> "music/kong2_4.raw"
+file: "/home/hannu/git/GameDisk2/2Arcade/Kong-II_data/music/kong2_2.raw" --> "music/kong2_2.raw"
