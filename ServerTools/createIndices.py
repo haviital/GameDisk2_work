@@ -4,6 +4,7 @@ import os
 import datetime
 import struct
 import time
+import subprocess
 
 
 defaultFolderList = [
@@ -24,6 +25,7 @@ defaultFolderList_test = [
 ]
 
 maxOfMaxTimestampsInt = 0
+PlzBlockSizeStr = "500"
 
 def CreateRootIndex():
 
@@ -155,9 +157,8 @@ def CreateSubdirIndices():
 				if timeSinceEpochInSecInt > maxTimeSinceEpochInSecInt:
 					maxTimeSinceEpochInSecInt = timeSinceEpochInSecInt
 
-				fileList.append([item, timeSinceEpochInSecStr])
-				
 				# try to find data folders for the pop 
+				isPlzFile = False
 				if ext == "pop":
 					dataFolderName = gameName+"_data"
 					found = False
@@ -168,8 +169,15 @@ def CreateSubdirIndices():
 					if found:
 						# make a PLZ file
 						dataFilePath = subdirPath+"/"+dataFolderName
-						MakePlzFile(gameName, filePath, dataFilePath)
-					
+						MakePlzFile(gameName, dir, filePath, dataFilePath)
+						item = gameName+".plz"
+						# TODO: Changing just the music file do not update the timestamp as it should. 
+						# The timestamp only changes if the pop-file is updated.
+
+				# Store the game info to the file list			
+				fileList.append([item, timeSinceEpochInSecStr])
+				
+
 		# store the timestamp for the folder
 		defaultFolderList[folderListIndex] = [folderListItem[0], folderListItem[1], str(maxTimeSinceEpochInSecInt)]
 		if maxTimeSinceEpochInSecInt > maxOfMaxTimestampsInt:
@@ -250,10 +258,11 @@ def CreateSubdirIndices():
 		file.write("}\n")
 	
 # Make the plz file
-def MakePlzFile(gameName, popFilePath, dataFilePath): 
+def MakePlzFile(gameName, folderName, popFilePath, dataFilePath): 
 	
 	# create the list file
-	file = open("logs/PlzListFile_"+gameName+".txt", "w")
+	listFileName = "logs/PlzListFile_"+folderName+"_"+gameName+".txt"
+	file = open(listFileName, "w")
 	
 	# Add pop file to the filelist
 	sdFilePath = popFilePath.split(rootDir, 1)	
@@ -280,7 +289,12 @@ def MakePlzFile(gameName, popFilePath, dataFilePath):
 	file.close()
 	
 	# create the pzl packet
-
+	plzfilepath = popFilePath.replace(".pop", ".plz") 
+	args = ("./packager",  plzfilepath, listFileName, PlzBlockSizeStr,"-noraw")
+	popen = subprocess.Popen(args, stdout=subprocess.PIPE)
+	popen.wait()
+	output = popen.stdout.read()
+	print output
 
 ### Main
 
