@@ -1,6 +1,6 @@
 {
 "path":"https://raw.githubusercontent.com/haviital/GameDisk2/master/4Puzzle"
-"timestamp":"1647462404"
+"timestamp":"1648275193"
 "list": [
    {
       "type": "bin",
@@ -25,6 +25,12 @@
       "title": "KamerKatze",
       "file": "KamerKatze.bin",
       "timestamp": "1590499010"
+   },
+   {
+      "type": "plz",
+      "title": "LeWord",
+      "file": "LeWord.plz",
+      "timestamp": "1648275193"
    },
    {
       "type": "pop",
