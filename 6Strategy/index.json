@@ -1,24 +1,24 @@
 {
 "path":"https://raw.githubusercontent.com/haviital/GameDisk2/master/6Strategy"
-"timestamp":"1590499010"
+"timestamp":"1649413979"
 "list": [
    {
       "type": "plz",
       "title": "AwakenJavaofthedeadjam",
       "file": "AwakenJavaofthedeadjam.plz",
-      "timestamp": "1590499010"
+      "timestamp": "1649413979"
    },
    {
       "type": "plz",
       "title": "nbattle",
       "file": "nbattle.plz",
-      "timestamp": "1590499010"
+      "timestamp": "1649413979"
    },
    {
       "type": "plz",
       "title": "tazs-javitto",
       "file": "tazs-javitto.plz",
-      "timestamp": "1590499010"
+      "timestamp": "1649413979"
    }
 ]
 }

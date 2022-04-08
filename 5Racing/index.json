@@ -1,18 +1,18 @@
 {
 "path":"https://raw.githubusercontent.com/haviital/GameDisk2/master/5Racing"
-"timestamp":"1590499010"
+"timestamp":"1649413979"
 "list": [
    {
       "type": "plz",
       "title": "PokitGP",
       "file": "PokitGP.plz",
-      "timestamp": "1590499010"
+      "timestamp": "1649413979"
    },
    {
       "type": "plz",
       "title": "uforace",
       "file": "uforace.plz",
-      "timestamp": "1590499010"
+      "timestamp": "1649413979"
    }
 ]
 }

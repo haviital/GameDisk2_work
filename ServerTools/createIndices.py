@@ -146,17 +146,7 @@ def CreateSubdirIndices():
 			
 			# Handle bin and pop files
 			if ext == "pop" or ext == "bin" or ext == "txt":
-				# Read the timestamp
-				filePath1 = "../"+dir+"/"+item
-				timeSinceEpochInSeconds = os.path.getmtime(filePath1) 
-				timeSinceEpochInSecInt = int(timeSinceEpochInSeconds)
-				timeSinceEpochInSecStr = str(timeSinceEpochInSecInt)
-				#print('timeSinceEpochInSecStr',timeSinceEpochInSecStr)
-
-				# Store the newest timestamp
-				if timeSinceEpochInSecInt > maxTimeSinceEpochInSecInt:
-					maxTimeSinceEpochInSecInt = timeSinceEpochInSecInt
-
+				
 				# Make PZL packet for all pop files
 				isPlzFile = False
 				if ext == "pop":
@@ -174,12 +164,23 @@ def CreateSubdirIndices():
 					# make a PLZ file
 					MakePlzFile(gameName, dir, filePath, dataFilePath)
 					item = gameName+".plz"
+					ext = "plz"
 					# TODO: Changing just the music file do not update the timestamp as it should. 
 					# The timestamp only changes if the pop-file is updated.
 
+				# Read the timestamp
+				fullPathItem = "../"+dir+"/"+item
+				timeSinceEpochInSeconds = os.path.getmtime(fullPathItem) 
+				timeSinceEpochInSecInt = int(timeSinceEpochInSeconds)
+				timeSinceEpochInSecStr = str(timeSinceEpochInSecInt)
+				#print('timeSinceEpochInSecStr',timeSinceEpochInSecStr)
+
+				# Store the newest timestamp
+				if timeSinceEpochInSecInt > maxTimeSinceEpochInSecInt:
+					maxTimeSinceEpochInSecInt = timeSinceEpochInSecInt
+
 				# Store the game info to the file list			
 				fileList.append([item, timeSinceEpochInSecStr])
-				
 
 		# store the timestamp for the folder
 		defaultFolderList[folderListIndex] = [folderListItem[0], folderListItem[1], str(maxTimeSinceEpochInSecInt)]
