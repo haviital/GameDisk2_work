@@ -1,0 +1,1 @@
+file: "/home/hannu/git/GameDisk2/1Adventure/coffins.pop" --> "1Adventure/coffins.pop"

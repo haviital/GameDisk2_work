@@ -1,0 +1,1 @@
+file: "/home/hannu/git/GameDisk2/2Arcade/Zombie_Jumpig_Pokitto.pop" --> "2Arcade/Zombie_Jumpig_Pokitto.pop"
