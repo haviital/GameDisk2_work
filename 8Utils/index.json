@@ -3,21 +3,21 @@
 "timestamp":"1590499010"
 "list": [
    {
-      "type": "pop",
-      "title": "Xploritto v0.1.1",
-      "file": "Xploritto.pop",
+      "type": "plz",
+      "title": "Xploritto",
+      "file": "Xploritto.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Lil IDE",
-      "file": "lilide.pop",
+      "type": "plz",
+      "title": "lilide",
+      "file": "lilide.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "PokiPad",
-      "file": "pokipad.pop",
+      "type": "plz",
+      "title": "pokipad",
+      "file": "pokipad.plz",
       "timestamp": "1590499010"
    },
    {

@@ -1,6 +1,6 @@
 {
 "path":"https://raw.githubusercontent.com/haviital/GameDisk2/master/4Puzzle"
-"timestamp":"1648721255"
+"timestamp":"1649413016"
 "list": [
    {
       "type": "bin",
@@ -9,9 +9,9 @@
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Cutie Critters",
-      "file": "CutieCritters_v11.pop",
+      "type": "plz",
+      "title": "CutieCritters_v11",
+      "file": "CutieCritters_v11.plz",
       "timestamp": "1590499010"
    },
    {
@@ -30,48 +30,48 @@
       "type": "plz",
       "title": "LeWord",
       "file": "LeWord.plz",
-      "timestamp": "1648721255"
+      "timestamp": "1649413016"
    },
    {
-      "type": "pop",
-      "title": "Mambo Is Me",
-      "file": "MamboIsMe.pop",
+      "type": "plz",
+      "title": "MamboIsMe",
+      "file": "MamboIsMe.plz",
       "timestamp": "1647462404"
    },
    {
-      "type": "pop",
+      "type": "plz",
       "title": "MrDriller",
-      "file": "MrDriller.pop",
+      "file": "MrDriller.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
+      "type": "plz",
       "title": "Noggin",
-      "file": "Noggin.pop",
+      "file": "Noggin.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
+      "type": "plz",
       "title": "Pok15",
-      "file": "Pok15.pop",
+      "file": "Pok15.plz",
       "timestamp": "1643550856"
    },
    {
-      "type": "pop",
+      "type": "plz",
       "title": "Pokaquarium",
-      "file": "Pokaquarium.pop",
+      "file": "Pokaquarium.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "sensitive",
-      "file": "Sensitive.pop",
+      "type": "plz",
+      "title": "Sensitive",
+      "file": "Sensitive.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Yatzy2",
-      "file": "YATZY2.pop",
+      "type": "plz",
+      "title": "YATZY2",
+      "file": "YATZY2.plz",
       "timestamp": "1590499010"
    },
    {
@@ -81,51 +81,51 @@
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Boblo",
-      "file": "boblo.pop",
+      "type": "plz",
+      "title": "boblo",
+      "file": "boblo.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Joebert (wip)",
-      "file": "joebert_wip.pop",
+      "type": "plz",
+      "title": "joebert_wip",
+      "file": "joebert_wip.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Kooky Kookies",
-      "file": "kooky.pop",
+      "type": "plz",
+      "title": "kooky",
+      "file": "kooky.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Linez",
-      "file": "linez.pop",
+      "type": "plz",
+      "title": "linez",
+      "file": "linez.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Pok2048",
-      "file": "pok2048.pop",
+      "type": "plz",
+      "title": "pok2048",
+      "file": "pok2048.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Pokittris",
-      "file": "pokitris.pop",
+      "type": "plz",
+      "title": "pokitris",
+      "file": "pokitris.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
+      "type": "plz",
       "title": "pokittaire",
-      "file": "pokittaire.pop",
+      "file": "pokittaire.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "RAQUER METE",
-      "file": "raquermete.pop",
+      "type": "plz",
+      "title": "raquermete",
+      "file": "raquermete.plz",
       "timestamp": "1590499010"
    },
    {
@@ -135,21 +135,21 @@
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Squiddy",
-      "file": "squiddy.pop",
+      "type": "plz",
+      "title": "squiddy",
+      "file": "squiddy.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "The Villainy of Cat Food Inc",
-      "file": "vocfi.pop",
+      "type": "plz",
+      "title": "vocfi",
+      "file": "vocfi.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "YATTT (Yet Another Tic Tac Toe)",
-      "file": "yatt.pop",
+      "type": "plz",
+      "title": "yatt",
+      "file": "yatt.plz",
       "timestamp": "1590499010"
    }
 ]

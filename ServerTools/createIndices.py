@@ -157,22 +157,25 @@ def CreateSubdirIndices():
 				if timeSinceEpochInSecInt > maxTimeSinceEpochInSecInt:
 					maxTimeSinceEpochInSecInt = timeSinceEpochInSecInt
 
-				# try to find data folders for the pop 
+				# Make PZL packet for all pop files
 				isPlzFile = False
 				if ext == "pop":
+					# try to find data folders for the pop 
 					dataFolderName = gameName+"_data"
 					found = False
 					for index in range(len(fileListAll)):
 						if fileListAll[index]==dataFolderName:
 							found = True
 							break
+					dataFilePath = ""
 					if found:
-						# make a PLZ file
 						dataFilePath = subdirPath+"/"+dataFolderName
-						MakePlzFile(gameName, dir, filePath, dataFilePath)
-						item = gameName+".plz"
-						# TODO: Changing just the music file do not update the timestamp as it should. 
-						# The timestamp only changes if the pop-file is updated.
+						
+					# make a PLZ file
+					MakePlzFile(gameName, dir, filePath, dataFilePath)
+					item = gameName+".plz"
+					# TODO: Changing just the music file do not update the timestamp as it should. 
+					# The timestamp only changes if the pop-file is updated.
 
 				# Store the game info to the file list			
 				fileList.append([item, timeSinceEpochInSecStr])
@@ -271,30 +274,55 @@ def MakePlzFile(gameName, folderName, popFilePath, dataFilePath):
 	print("listfile line=", line)
 	file.write(line);
 	
-	# Add data files to the filelist
-	for root, dirs, files in os.walk(dataFilePath):
-		for name in files:
-			print("root",root)
-			print("dataFilePath",dataFilePath)
-			filePath = os.path.join(root, name)
-			sdFilePath = filePath.split(dataFilePath, 1)	
-			print("sdFilePath",sdFilePath) # ('sdFilePath', ['', '/danger.raw'])
-			sdFilePathStr = sdFilePath[1]
-			if root == dataFilePath:
-				sdFilePathStr = "/_ROOT_"+sdFilePathStr
-			line = 'file: "' + filePath + '" --> "' + sdFilePathStr[1:] + '"\n'
-			print("line",line)
-			file.write(line);
+	# Check the timestamp
+	plzfilepath = popFilePath.replace(".pop", ".plz") 	
+	dataFilesHaveBeenUpdated = False
+	if not os.path.exists(plzfilepath):
+		dataFilesHaveBeenUpdated = True	
+	else:
+		plzFile_timeSinceEpochInSeconds = os.path.getmtime(plzfilepath) 
+		print("Timestamp:",plzfilepath, plzFile_timeSinceEpochInSeconds)
+	
+	if not dataFilesHaveBeenUpdated:
+		timeSinceEpochInSeconds = os.path.getmtime(popFilePath) 
+		print("Timestamp:",popFilePath, timeSinceEpochInSeconds)
+		if(timeSinceEpochInSeconds) > plzFile_timeSinceEpochInSeconds:
+			dataFilesHaveBeenUpdated = True;
 
+	# If exists, add data files to the filelist
+	if len(dataFilePath) > 0:
+		for root, dirs, files in os.walk(dataFilePath):
+			for name in files:
+				print("root",root)
+				print("dataFilePath",dataFilePath)
+				
+				# Add the source and target paths to the filelist file.
+				filePath = os.path.join(root, name)
+				sdFilePath = filePath.split(dataFilePath, 1)	
+				print("sdFilePath",sdFilePath) # ('sdFilePath', ['', '/danger.raw'])
+				sdFilePathStr = sdFilePath[1]
+				if root == dataFilePath:
+					sdFilePathStr = "/_ROOT_"+sdFilePathStr
+				line = 'file: "' + filePath + '" --> "' + sdFilePathStr[1:] + '"\n'
+				print("line",line)
+				file.write(line);
+
+				# Check the timestamp
+				if not dataFilesHaveBeenUpdated:
+					timeSinceEpochInSeconds = os.path.getmtime(filePath) 
+					print("Timestamp:",filePath, timeSinceEpochInSeconds)
+					if(timeSinceEpochInSeconds) > plzFile_timeSinceEpochInSeconds:
+						dataFilesHaveBeenUpdated = True;
 	file.close()
 	
-	# create the pzl packet
-	plzfilepath = popFilePath.replace(".pop", ".plz") 
-	args = ("./packager",  plzfilepath, listFileName, PlzBlockSizeStr,"-noraw")
-	popen = subprocess.Popen(args, stdout=subprocess.PIPE)
-	popen.wait()
-	output = popen.stdout.read()
-	print output
+	# if the data files or the pop file has been updated, create the pzl packet
+	print("dataFilesHaveBeenUpdated", dataFilesHaveBeenUpdated)
+	if dataFilesHaveBeenUpdated: 
+		args = ("./packager",  plzfilepath, listFileName, PlzBlockSizeStr,"-noraw")
+		popen = subprocess.Popen(args, stdout=subprocess.PIPE)
+		popen.wait()
+		output = popen.stdout.read()
+		print output
 
 ### Main
 

@@ -3,15 +3,15 @@
 "timestamp":"1590499010"
 "list": [
    {
-      "type": "pop",
-      "title": "Pokitto Grand Prix",
-      "file": "PokitGP.pop",
+      "type": "plz",
+      "title": "PokitGP",
+      "file": "PokitGP.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Uforace",
-      "file": "uforace.pop",
+      "type": "plz",
+      "title": "uforace",
+      "file": "uforace.plz",
       "timestamp": "1590499010"
    }
 ]

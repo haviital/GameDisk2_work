@@ -3,21 +3,21 @@
 "timestamp":"1590499010"
 "list": [
    {
-      "type": "pop",
+      "type": "plz",
       "title": "AwakenJavaofthedeadjam",
-      "file": "AwakenJavaofthedeadjam.pop",
+      "file": "AwakenJavaofthedeadjam.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Naval Battle",
-      "file": "nbattle.pop",
+      "type": "plz",
+      "title": "nbattle",
+      "file": "nbattle.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
+      "type": "plz",
       "title": "tazs-javitto",
-      "file": "tazs-javitto.pop",
+      "file": "tazs-javitto.plz",
       "timestamp": "1590499010"
    }
 ]

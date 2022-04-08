@@ -3,21 +3,21 @@
 "timestamp":"1647462260"
 "list": [
    {
-      "type": "pop",
+      "type": "plz",
       "title": "1q48",
-      "file": "1q48.pop",
+      "file": "1q48.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Arcade Classics",
-      "file": "Arcade.pop",
+      "type": "plz",
+      "title": "Arcade",
+      "file": "Arcade.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
+      "type": "plz",
       "title": "BigBlue",
-      "file": "BigBlue.pop",
+      "file": "BigBlue.plz",
       "timestamp": "1590499010"
    },
    {
@@ -27,15 +27,15 @@
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Galaxy Fighter",
-      "file": "GalaxyFighters.pop",
+      "type": "plz",
+      "title": "GalaxyFighters",
+      "file": "GalaxyFighters.plz",
       "timestamp": "1647462260"
    },
    {
-      "type": "pop",
+      "type": "plz",
       "title": "InvaderWaves",
-      "file": "InvaderWaves.pop",
+      "file": "InvaderWaves.plz",
       "timestamp": "1590499010"
    },
    {
@@ -45,51 +45,51 @@
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
+      "type": "plz",
       "title": "PiCross",
-      "file": "PiCross.pop",
+      "file": "PiCross.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "R0xitto",
-      "file": "R0xitto26.pop",
+      "type": "plz",
+      "title": "R0xitto26",
+      "file": "R0xitto26.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Rayne the Rogue Part II",
-      "file": "RAYNE2v11.pop",
+      "type": "plz",
+      "title": "RAYNE2v11",
+      "file": "RAYNE2v11.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "ZOMBIE JUMPIG",
-      "file": "Zombie_Jumpig_Pokitto.pop",
+      "type": "plz",
+      "title": "Zombie_Jumpig_Pokitto",
+      "file": "Zombie_Jumpig_Pokitto.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Aqua Pokitty",
-      "file": "aqua16.pop",
+      "type": "plz",
+      "title": "aqua16",
+      "file": "aqua16.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Armageddon",
-      "file": "armagedn.pop",
+      "type": "plz",
+      "title": "armagedn",
+      "file": "armagedn.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Artillery",
-      "file": "artiller.pop",
+      "type": "plz",
+      "title": "artiller",
+      "file": "artiller.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Asterocks",
-      "file": "asterock.pop",
+      "type": "plz",
+      "title": "asterock",
+      "file": "asterock.plz",
       "timestamp": "1590499010"
    },
    {
@@ -99,9 +99,9 @@
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Digger",
-      "file": "digger.pop",
+      "type": "plz",
+      "title": "digger",
+      "file": "digger.plz",
       "timestamp": "1590499010"
    },
    {
@@ -117,51 +117,51 @@
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Linez",
-      "file": "linez.pop",
+      "type": "plz",
+      "title": "linez",
+      "file": "linez.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Pakman",
-      "file": "pakman.pop",
+      "type": "plz",
+      "title": "pakman",
+      "file": "pakman.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Pysconian84",
-      "file": "pysco84.pop",
+      "type": "plz",
+      "title": "pysco84",
+      "file": "pysco84.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Pysconian Deluxe",
-      "file": "pyscodx.pop",
+      "type": "plz",
+      "title": "pyscodx",
+      "file": "pyscodx.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Rexitto",
-      "file": "rexitto.pop",
+      "type": "plz",
+      "title": "rexitto",
+      "file": "rexitto.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Tor's Game Gallery",
-      "file": "tgg.pop",
+      "type": "plz",
+      "title": "tgg",
+      "file": "tgg.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Top Fish",
-      "file": "topfish.pop",
+      "type": "plz",
+      "title": "topfish",
+      "file": "topfish.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "U.F.O.",
-      "file": "ufo.pop",
+      "type": "plz",
+      "title": "ufo",
+      "file": "ufo.plz",
       "timestamp": "1590499010"
    }
 ]

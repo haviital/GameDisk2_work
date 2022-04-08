@@ -3,111 +3,111 @@
 "timestamp":"1647724701"
 "list": [
    {
-      "type": "pop",
-      "title": "101 Starships",
-      "file": "101stars.pop",
+      "type": "plz",
+      "title": "101stars",
+      "file": "101stars.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Ball Bust",
-      "file": "B-Bust.pop",
+      "type": "plz",
+      "title": "B-Bust",
+      "file": "B-Bust.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Espresso Shoot",
-      "file": "EspressoShoot.pop",
+      "type": "plz",
+      "title": "EspressoShoot",
+      "file": "EspressoShoot.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "DashOfTheDead",
-      "file": "JavaDashOfTheDead.pop",
+      "type": "plz",
+      "title": "JavaDashOfTheDead",
+      "file": "JavaDashOfTheDead.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
+      "type": "plz",
       "title": "Millipe",
-      "file": "Millipe.pop",
+      "file": "Millipe.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Not Dead Yet",
-      "file": "NotDeadYet.pop",
+      "type": "plz",
+      "title": "NotDeadYet",
+      "file": "NotDeadYet.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "CPONG",
-      "file": "cpong.pop",
+      "type": "plz",
+      "title": "cpong",
+      "file": "cpong.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Crabator",
-      "file": "crabator.pop",
+      "type": "plz",
+      "title": "crabator",
+      "file": "crabator.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
+      "type": "plz",
       "title": "flappy",
-      "file": "flappy.pop",
+      "file": "flappy.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Guns n Riders",
-      "file": "gunridrs.pop",
+      "type": "plz",
+      "title": "gunridrs",
+      "file": "gunridrs.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Lander",
-      "file": "lander.pop",
+      "type": "plz",
+      "title": "lander",
+      "file": "lander.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Mars Attack",
-      "file": "marsatck.pop",
+      "type": "plz",
+      "title": "marsatck",
+      "file": "marsatck.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Pokitto Lander",
-      "file": "moon.pop",
+      "type": "plz",
+      "title": "moon",
+      "file": "moon.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Polar Parcel",
-      "file": "polar.pop",
+      "type": "plz",
+      "title": "polar",
+      "file": "polar.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Pyrates!",
-      "file": "pyrates.pop",
+      "type": "plz",
+      "title": "pyrates",
+      "file": "pyrates.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "Pokitto Says!",
-      "file": "say.pop",
+      "type": "plz",
+      "title": "say",
+      "file": "say.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "PokSky",
-      "file": "sky.pop",
+      "type": "plz",
+      "title": "sky",
+      "file": "sky.plz",
       "timestamp": "1590499010"
    },
    {
-      "type": "pop",
-      "title": "PokSky",
-      "file": "test1.pop",
+      "type": "plz",
+      "title": "test1",
+      "file": "test1.plz",
       "timestamp": "1647724701"
    }
 ]
