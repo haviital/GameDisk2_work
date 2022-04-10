@@ -184,6 +184,7 @@ def CreateSubdirIndices():
 
 		# store the timestamp for the folder
 		defaultFolderList[folderListIndex] = [folderListItem[0], folderListItem[1], str(maxTimeSinceEpochInSecInt)]
+		print("!!HV", defaultFolderList[folderListIndex])
 		if maxTimeSinceEpochInSecInt > maxOfMaxTimestampsInt:
 			maxOfMaxTimestampsInt = maxTimeSinceEpochInSecInt
 
@@ -203,6 +204,8 @@ def CreateSubdirIndices():
 		file.write('"path":"https://raw.githubusercontent.com/haviital/' + rootFolderName + '/master/' + dir +'"\n')
 		file.write('"timestamp":"' + str(maxTimeSinceEpochInSecInt) + '"\n')
 		file.write('"list": [\n')
+		print("!!HV", dir, str(maxTimeSinceEpochInSecInt))
+
 	
 		# write games or notes
 		for i in range(len(fileList)):

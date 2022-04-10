@@ -1,6 +1,6 @@
 {
 "path":"https://raw.githubusercontent.com/haviital/GameDisk2/master/4Puzzle"
-"timestamp":"1649413979"
+"timestamp":"1649601363"
 "list": [
    {
       "type": "bin",
@@ -30,7 +30,7 @@
       "type": "plz",
       "title": "LeWord",
       "file": "LeWord.plz",
-      "timestamp": "1649413089"
+      "timestamp": "1649601363"
    },
    {
       "type": "plz",
