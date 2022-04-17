@@ -1,0 +1,1 @@
+file: "/home/hannu/git/GameDisk2/0Action/Anarch_pokitto_1-0.pop" --> "0Action/Anarch_pokitto_1-0.pop"

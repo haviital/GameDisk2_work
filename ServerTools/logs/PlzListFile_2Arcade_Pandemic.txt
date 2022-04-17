@@ -1,0 +1,1 @@
+file: "/home/hannu/git/GameDisk2/2Arcade/Pandemic.pop" --> "2Arcade/Pandemic.pop"

@@ -4,12 +4,6 @@
 "list": [
    {
       "type": "bin",
-      "title": "Intervalometer",
-      "file": "Intervalometer.bin",
-      "timestamp": "1590499010"
-   },
-   {
-      "type": "bin",
       "title": "Mandel",
       "file": "Mandel.bin",
       "timestamp": "1590499010"
@@ -72,12 +66,6 @@
       "type": "bin",
       "title": "demo3_overclock",
       "file": "demo3_overclock.bin",
-      "timestamp": "1590499010"
-   },
-   {
-      "type": "bin",
-      "title": "jetpack",
-      "file": "jetpack.bin",
       "timestamp": "1590499010"
    },
    {

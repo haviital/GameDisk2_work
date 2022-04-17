@@ -1,6 +1,6 @@
 {
 "path":"https://raw.githubusercontent.com/haviital/GameDisk2/master/4Puzzle"
-"timestamp":"1649601363"
+"timestamp":"1650225382"
 "list": [
    {
       "type": "bin",
@@ -34,9 +34,21 @@
    },
    {
       "type": "plz",
+      "title": "LightsOut",
+      "file": "LightsOut.plz",
+      "timestamp": "1650225382"
+   },
+   {
+      "type": "plz",
       "title": "MamboIsMe",
       "file": "MamboIsMe.plz",
       "timestamp": "1649413978"
+   },
+   {
+      "type": "plz",
+      "title": "MineSweeper",
+      "file": "MineSweeper.plz",
+      "timestamp": "1650225382"
    },
    {
       "type": "plz",
@@ -46,15 +58,33 @@
    },
    {
       "type": "plz",
+      "title": "NanoPhageZero",
+      "file": "NanoPhageZero.plz",
+      "timestamp": "1650225382"
+   },
+   {
+      "type": "plz",
       "title": "Noggin",
       "file": "Noggin.plz",
       "timestamp": "1649413978"
    },
    {
       "type": "plz",
+      "title": "PiCross",
+      "file": "PiCross.plz",
+      "timestamp": "1650225382"
+   },
+   {
+      "type": "bin",
+      "title": "PlayPlayPlay",
+      "file": "PlayPlayPlay.bin",
+      "timestamp": "1650225044"
+   },
+   {
+      "type": "plz",
       "title": "Pok15",
       "file": "Pok15.plz",
-      "timestamp": "1649413978"
+      "timestamp": "1650225382"
    },
    {
       "type": "plz",
@@ -70,9 +100,21 @@
    },
    {
       "type": "plz",
+      "title": "TheHex",
+      "file": "TheHex.plz",
+      "timestamp": "1650225381"
+   },
+   {
+      "type": "plz",
       "title": "YATZY2",
       "file": "YATZY2.plz",
       "timestamp": "1649413978"
+   },
+   {
+      "type": "bin",
+      "title": "_Joe_Goes_Pop_",
+      "file": "_Joe_Goes_Pop_.bin",
+      "timestamp": "1650224296"
    },
    {
       "type": "bin",
@@ -144,7 +186,7 @@
       "type": "plz",
       "title": "vocfi",
       "file": "vocfi.plz",
-      "timestamp": "1649413978"
+      "timestamp": "1650225381"
    },
    {
       "type": "plz",

@@ -1,0 +1,1 @@
+file: "/home/hannu/git/GameDisk2/2Arcade/NuPogodi.pop" --> "2Arcade/NuPogodi.pop"

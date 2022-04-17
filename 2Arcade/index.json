@@ -1,6 +1,6 @@
 {
 "path":"https://raw.githubusercontent.com/haviital/GameDisk2/master/2Arcade"
-"timestamp":"1649413977"
+"timestamp":"1650225381"
 "list": [
    {
       "type": "plz",
@@ -13,6 +13,12 @@
       "title": "Arcade",
       "file": "Arcade.plz",
       "timestamp": "1649413976"
+   },
+   {
+      "type": "plz",
+      "title": "Arcadia Strikers",
+      "file": "Arcadia Strikers.plz",
+      "timestamp": "1650225381"
    },
    {
       "type": "plz",
@@ -40,15 +46,39 @@
    },
    {
       "type": "plz",
+      "title": "Karateka",
+      "file": "Karateka.plz",
+      "timestamp": "1650225381"
+   },
+   {
+      "type": "plz",
       "title": "Kong-II",
       "file": "Kong-II.plz",
       "timestamp": "1649412713"
    },
    {
       "type": "plz",
+      "title": "NuPogodi",
+      "file": "NuPogodi.plz",
+      "timestamp": "1650225381"
+   },
+   {
+      "type": "plz",
+      "title": "Pandemic",
+      "file": "Pandemic.plz",
+      "timestamp": "1650225381"
+   },
+   {
+      "type": "plz",
       "title": "PiCross",
       "file": "PiCross.plz",
       "timestamp": "1649413976"
+   },
+   {
+      "type": "plz",
+      "title": "Pomifactory",
+      "file": "Pomifactory.plz",
+      "timestamp": "1650225381"
    },
    {
       "type": "plz",
@@ -61,6 +91,12 @@
       "title": "RAYNE2v11",
       "file": "RAYNE2v11.plz",
       "timestamp": "1649413976"
+   },
+   {
+      "type": "plz",
+      "title": "SpaceCab",
+      "file": "SpaceCab.plz",
+      "timestamp": "1650225381"
    },
    {
       "type": "plz",
@@ -105,10 +141,22 @@
       "timestamp": "1649413976"
    },
    {
+      "type": "plz",
+      "title": "dk-101",
+      "file": "dk-101.plz",
+      "timestamp": "1650225381"
+   },
+   {
       "type": "bin",
       "title": "flappybo",
       "file": "flappybo.bin",
       "timestamp": "1590499010"
+   },
+   {
+      "type": "bin",
+      "title": "goosebay1981",
+      "file": "goosebay1981.bin",
+      "timestamp": "1650224296"
    },
    {
       "type": "bin",
@@ -145,6 +193,12 @@
       "title": "rexitto",
       "file": "rexitto.plz",
       "timestamp": "1649413976"
+   },
+   {
+      "type": "plz",
+      "title": "stardef",
+      "file": "stardef.plz",
+      "timestamp": "1650225381"
    },
    {
       "type": "plz",

@@ -1,7 +1,25 @@
 {
 "path":"https://raw.githubusercontent.com/haviital/GameDisk2/master/1Adventure"
-"timestamp":"1649413975"
+"timestamp":"1650225381"
 "list": [
+   {
+      "type": "plz",
+      "title": "DarkRitual",
+      "file": "DarkRitual.plz",
+      "timestamp": "1650225381"
+   },
+   {
+      "type": "plz",
+      "title": "Joe",
+      "file": "Joe.plz",
+      "timestamp": "1650225381"
+   },
+   {
+      "type": "plz",
+      "title": "PreludeToADream",
+      "file": "PreludeToADream.plz",
+      "timestamp": "1650225381"
+   },
    {
       "type": "bin",
       "title": "Tygro",

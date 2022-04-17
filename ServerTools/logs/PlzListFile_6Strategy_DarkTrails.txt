@@ -1,0 +1,1 @@
+file: "/home/hannu/git/GameDisk2/6Strategy/DarkTrails.pop" --> "6Strategy/DarkTrails.pop"
