@@ -7,8 +7,10 @@ import time
 import subprocess
 
 
+# Note the folder name can be max 12 chars, and max 15 folders can exist. This is a memory optimization in PokArcade.
 defaultFolderList = [
-	["00Notes", "News"],
+	["0_1Latest", "Latest"],
+	["0_2Notes", "News"],
 	["0Action", "Action"],
 	["1Adventure", "Adventure"],
 	["2Arcade", "Arcade"],
@@ -118,12 +120,20 @@ def ReadTitleFromTxtFile(filePath):
 def CreateSubdirIndices():
 
 	global maxOfMaxTimestampsInt
+	
+	# list of all games
+	allGamesList = []
 
 	for folderListIndex in range(len(defaultFolderList)):
+		
 		folderListItem = defaultFolderList[folderListIndex]
 		dir = folderListItem[0]
 		print(dir)
 
+		# Skip the latest folder for now as it is created at last
+		if folderListIndex==0: 
+			continue
+			
 		isNotesForlder = False
 		if dir=="Notes": isNotesForlder = True
 		
@@ -181,6 +191,9 @@ def CreateSubdirIndices():
 
 				# Store the game info to the file list			
 				fileList.append([item, timeSinceEpochInSecStr])
+				
+				# store the game info to the global list
+				allGamesList.append([item, dir, timeSinceEpochInSecStr])
 
 		# store the timestamp for the folder
 		defaultFolderList[folderListIndex] = [folderListItem[0], folderListItem[1], str(maxTimeSinceEpochInSecInt)]
@@ -190,7 +203,7 @@ def CreateSubdirIndices():
 
 		# Sort alphapetically
 		fileList.sort(key=lambda tmp: tmp[0])
-
+		
 		# *** Write the subfolder info to the own index.json.
 
 		file = open("../"+dir+"/index.json", "w")
@@ -263,7 +276,83 @@ def CreateSubdirIndices():
 		#}
 		file.write("]\n")
 		file.write("}\n")
-	
+		
+		# Create the latest items index
+		folderListItem = defaultFolderList[0]  # "0_1Latest"
+		dir = folderListItem[0]
+		CreateLatestSubdirIndex(allGamesList, dir, rootFolderName)
+		
+
+# Create the "Latest" subdir index
+def CreateLatestSubdirIndex(allGamesList, dir, rootFolderName): 
+
+	file = open("../"+dir+"/index.json", "w")
+
+	# Sort by timestamp, descending
+	allGamesList.sort(key=lambda tmp: tmp[2], reverse=True)
+
+	# Update the 
+	maxTimestamp = allGamesList[0][2]
+	defaultFolderList[0] = [defaultFolderList[0][0], defaultFolderList[0][1], str(maxTimestamp)]
+
+	# Write the header, e.g.
+	# {
+	# "path":"https://raw.githubusercontent.com/haviital/GameDisk2/master/0Action", 
+	# "list": [
+	file.write("{\n")
+	file.write('"path":"https://raw.githubusercontent.com/haviital/' + rootFolderName + '/master/' + dir +'"\n')
+	file.write('"timestamp":"' + maxTimestamp + '"\n')
+	file.write('"list": [\n')
+	#print("!!HV", dir, str(maxTimeSinceEpochInSecInt))
+
+	# Create new item list. Max 8 items.
+	maxItemCount = min(8, len(allGamesList))
+	for i in range(maxItemCount):
+		
+		#print("game: ",allGamesList[i][2], allGamesList[i][1], allGamesList[i][0])
+		
+		### Write the subfolder info to the own index.json.
+		
+		gameFile, gameDir, gameTimestampStr = allGamesList[i]
+
+		nameAndExtList = gameFile.split('.')
+		name = nameAndExtList[0]
+		ext = nameAndExtList[1]
+
+		# Read the long name from pop
+		filePath2 = "../"+gameDir+"/"+gameFile
+		if ext == "pop":
+			name = ReadTagFromPopFile(filePath2)
+			print("pop name=" +  name)
+
+		# Write a game record, e.g.
+		#{ 
+		#   "type": "link", 
+		#   "title": "Ball Bust", 
+		#   "file": "B-Bust.pop",
+		#   "folder": "0Action", 
+		#   "timestamp": "12345678", 
+		#},
+
+		file.write("   {\n")
+		file.write('      "type": "link",\n')
+		file.write('      "title": "' + name + '",\n')
+		file.write('      "file": "' + gameFile + '",\n')
+		file.write('      "folder": "' + gameDir + '",\n')
+		file.write('      "timestamp": "' + gameTimestampStr + '"\n')
+
+		if i < maxItemCount - 1:
+			file.write("   },\n") # Add ','
+		else:
+			file.write("   }\n")
+
+	# Write the footer, e.g.
+	#] 
+	#}
+	file.write("]\n")
+	file.write("}\n")
+		
+		
 # Make the plz file
 def MakePlzFile(gameName, folderName, popFilePath, dataFilePath): 
 	
