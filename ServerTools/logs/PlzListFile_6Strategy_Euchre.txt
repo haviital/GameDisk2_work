@@ -1,1 +1,1 @@
-file: "/home/hannu/git/GameDisk2/6Strategy/Euchre.pop" --> "6Strategy/Euchre.pop"
+file: "/home/hannu/git/GameDisk2_work/6Strategy/Euchre.pop" --> "6Strategy/Euchre.pop"

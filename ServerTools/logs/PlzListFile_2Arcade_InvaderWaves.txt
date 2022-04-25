@@ -1,1 +1,1 @@
-file: "/home/hannu/git/GameDisk2/2Arcade/InvaderWaves.pop" --> "2Arcade/InvaderWaves.pop"
+file: "/home/hannu/git/GameDisk2_work/2Arcade/InvaderWaves.pop" --> "2Arcade/InvaderWaves.pop"

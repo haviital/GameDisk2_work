@@ -1,1 +1,1 @@
-file: "/home/hannu/git/GameDisk2/4Puzzle/pokitris.pop" --> "4Puzzle/pokitris.pop"
+file: "/home/hannu/git/GameDisk2_work/4Puzzle/pokitris.pop" --> "4Puzzle/pokitris.pop"

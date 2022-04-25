@@ -1,1 +1,1 @@
-file: "/home/hannu/git/GameDisk2/1Adventure/PreludeToADream.pop" --> "1Adventure/PreludeToADream.pop"
+file: "/home/hannu/git/GameDisk2_work/1Adventure/PreludeToADream.pop" --> "1Adventure/PreludeToADream.pop"

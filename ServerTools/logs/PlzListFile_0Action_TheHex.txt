@@ -1,1 +1,1 @@
-file: "/home/hannu/git/GameDisk2/0Action/TheHex.pop" --> "0Action/TheHex.pop"
+file: "/home/hannu/git/GameDisk2_work/0Action/TheHex.pop" --> "0Action/TheHex.pop"

@@ -1,1 +1,1 @@
-file: "/home/hannu/git/GameDisk2/3Platformer/PokiEvil4.pop" --> "3Platformer/PokiEvil4.pop"
+file: "/home/hannu/git/GameDisk2_work/3Platformer/PokiEvil4.pop" --> "3Platformer/PokiEvil4.pop"

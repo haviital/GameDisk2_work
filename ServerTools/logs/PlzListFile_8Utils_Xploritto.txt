@@ -1,1 +1,1 @@
-file: "/home/hannu/git/GameDisk2/8Utils/Xploritto.pop" --> "8Utils/Xploritto.pop"
+file: "/home/hannu/git/GameDisk2_work/8Utils/Xploritto.pop" --> "8Utils/Xploritto.pop"

@@ -1,1 +1,1 @@
-file: "/home/hannu/git/GameDisk2/3Platformer/LodeRunner_Pokitto_v1.pop" --> "3Platformer/LodeRunner_Pokitto_v1.pop"
+file: "/home/hannu/git/GameDisk2_work/3Platformer/LodeRunner_Pokitto_v1.pop" --> "3Platformer/LodeRunner_Pokitto_v1.pop"
